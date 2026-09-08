@@ -142,7 +142,7 @@
 7. 轻铅笔先画比例框、外轮廓、内轮廓、器壁和结构；
 8. 将关键点投影到其他视图，核对对齐、镜像和厚度；
 9. 先画纹饰布局，再逐段画母题；锈蚀下模糊但可辨纹饰照图保留；
-10. 第一次审图通过后再墨线：外轮廓/剖面 → 主要结构 → 内轮廓/孔道/接缝 → 纹饰细部 → 剖面线与必要材质线 → 尺寸/图例；
+10. 第一次审图通过后再墨线：外轮廓/剖面 → 主要结构 → 内轮廓/孔道/接缝 → 纹饰细部 → 剖面线与必要材质线 → 尺寸 →（用户或项目规范要求时）图例；
 11. 清稿、扫描、裁切和排版，保留原稿与版本记录；
 12. 按最终印刷尺寸检查，并归档测量表、铅笔稿、墨线稿、母版、出版副本和修改记录。
 
@@ -160,7 +160,7 @@
 - 纹饰单元、位置、方向、疏密、连接、叠压、端部和损伤可核对；表现为清晰精细的简笔线描；
 - 没有无来源的镜像、对称补全、类型学补纹或生成式假线；
 - 粗/中/细线语义和相对层级统一，最终缩印后细线和小字仍可读；
-- 图号、器名、编号、尺寸、比例尺、图例、说明和版本信息齐全；
+- 图号、器名、编号、尺寸、比例尺、说明和版本信息齐全；用户或项目规范要求线例时，再核对图例是否齐全且与线型一一对应；
 - 原始测量表、照片、铅笔稿、墨线稿和母版未被覆盖。
 
 ### 最终 30 秒复核
@@ -186,7 +186,7 @@
 | 11 | 陶片方向 | 区分确定、推定、未知方向 |
 | 12 | 胎体、断口、釉层 | 结构线与材质线不混 |
 | 13 | 带状纹饰布局 | 先带宽/边界，再母题 |
-| 14 | 陶器综合图 | 统一比例、线宽、剖面和图例 |
+| 14 | 陶器综合图 | 统一比例、线宽和剖面；按要求处理图例 |
 | 15 | 石片背/腹/侧视 | 正反面不颠倒 |
 | 16 | 剥片疤叠压 | 不把色差/天然裂纹当技术痕 |
 | 17 | 修理、刃部、缺口 | 技术信息突出 |
@@ -200,11 +200,11 @@
 | 25 | 玻璃或木器 | 不用大面积灰阶制造材质 |
 | 26 | 币、印章、牌饰 | 正反、顶部和镜像正确 |
 | 27 | 主图＋纹饰局部放大/展开图 | 放大图增加信息 |
-| 28 | 盲审 | 他人仅凭图例读懂图 |
+| 28 | 盲审 | 他人仅凭线图（如有图例再结合图例）读懂图 |
 | 29 | 按审图清单重绘 | 只改有证据的问题 |
-| 30 | 完整交付图 | 测量表、各稿、图例、比例尺、缩印样齐全 |
+| 30 | 完整交付图 | 测量表、各稿、比例尺、缩印样齐全；按要求附图例 |
 
-每周按 1—5 分自评：测量比例、投影对应、外轮廓、内部结构、剖面、纹饰布局、材质/技术表现、残损/复原诚实度、线宽/图例统一、缩印可读性。若投影对应或诚实度低于 4，不用增加纹理补救，应回到实测与结构起稿。
+每周按 1—5 分自评：测量比例、投影对应、外轮廓、内部结构、剖面、纹饰布局、材质/技术表现、残损/复原诚实度、线宽统一、缩印可读性；如提供图例，再单独核对图例统一性。若投影对应或诚实度低于 4，不用增加纹理补救，应回到实测与结构起稿。
 
 ## 11. 标准、教材和专业参考
 
@@ -224,12 +224,6 @@
 - 马鸿藻：《田野考古绘图》；
 - 刘方、李淼、王亚蓉编：《考古绘图70年》；
 - 赵宾福主编：《田野考古学》；[出版社书目](https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=691f4b1ce119ac97296cb7a4)；
-- Lesley Collett, *Introduction to Drawing Archaeological Pottery*；[CIfA publications](https://archaeologists.net/publications/papers)；[Pottery Toolkit](https://archaeologists.net/work/toolkits/pottery)；
-- A. Boersma & M. Los-Weijns, *A Guide to Archaeological Draughtsmanship*；[RUG record](https://research.rug.nl/en/publications/a-guide-to-archaeological-draughtsmanship-2/)；
-- Nick Griffiths 等，*Drawing Archaeological Finds: A Handbook*；[publisher](https://archetype.co.uk/our-titles/drawing-archaeological-finds/?id=1)；
-- Hazel Martingell & Alan Saville, *The Illustration of Lithic Artefacts*；[CIfA PDF](https://www.archaeologists.net/sites/default/files/2025-04/flint-paper-digital.pdf)；
-- Orton & Hughes, *Pottery in Archaeology*，“Illustration”章节；[Cambridge](https://www.cambridge.org/core/books/abs/pottery-in-archaeology/illustration/029B89076D6F7585A744383E05AE37FE)；
-- [Historic England Archaeology Recording Manual](https://historicengland.org.uk/content/docs/research/historic-england-archaeological-recording-manual-2018)；
-- [Parks Canada Archaeological Recording Manual](https://parks.canada.ca/agence-agency/bib-lib/politiques-policies/archeologie-archaeology/fp-es/8)。
+- 本 skill 的教材与指南参考仅保留中国国内出版物、国内标准和国内公开图版；需增加新书时，先核对作者、出版物和资料对象属于国内范围，再写入本节。
 
 书本示范和专业指南是方法补充；正式报告、出版物和修复项目仍以项目体例、最新标准原文和文物保护要求为最终依据。
