@@ -61,9 +61,11 @@
 
 ## 6. 成品图
 
+[瓦当路径化 SVG 矢量主稿](../assets/examples/wadang-8a1-archaeological-plate-v1.svg)
+
 ![瓦当考古线图测试稿](../assets/examples/wadang-8a1-archaeological-plate-v1.png)
 
-成品包含：正面主视图、纹饰分区、六组双卷云纹、中心方格纹、尺寸引线、1:1 比例尺和尺寸支持下的下方剖面/侧面表达。
+成品同时提供 SVG 矢量主稿和 PNG 预览；SVG 以路径表达正面主视图、纹饰分区、六组双卷云纹、中心方格纹、尺寸引线、1:1 比例尺和尺寸支持下的下方剖面/侧面表达，不嵌入原始照片。
 
 ## 7. 交付前审图结论
 
