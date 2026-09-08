@@ -1,0 +1,7 @@
+interface:
+  display_name: "考古绘图skill"
+  short_description: "按考古实测与正投影规范分析、绘制和审查规范化器物线图"
+  default_prompt: "Use $archaeological-artifact-drawing to analyze or create a规范化考古器物线图。"
+
+policy:
+  allow_implicit_invocation: true
