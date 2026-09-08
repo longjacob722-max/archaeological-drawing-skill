@@ -47,15 +47,21 @@
 | [references/traditional-line-drawing-learning-pack.md](references/traditional-line-drawing-learning-pack.md) | 陶器、石器、金属器、玉石、骨角牙、玻璃和有机物的线描方法 |
 | [references/domestic-case-lessons.md](references/domestic-case-lessons.md) | 国内器物绘图案例的归纳与审查要点 |
 | [references/web-comparison-lessons.md](references/web-comparison-lessons.md) | 对照公开案例后的查漏补缺记录 |
-| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 3 组国内独立重绘案例及逐例出处 |
+| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 4 个国内器物案例及逐例出处 |
 | [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
-| [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当规范化绘图成品示例 |
+| [assets/examples/wadang-8a1-archaeological-plate-v1.svg](assets/examples/wadang-8a1-archaeological-plate-v1.svg) | 瓦当 SVG 矢量主稿 |
+| [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当 PNG 预览 |
+| [assets/examples/domestic-bronze-k3qw1-independent.svg](assets/examples/domestic-bronze-k3qw1-independent.svg) | 青铜大口尊 SVG 矢量主稿 |
+| [assets/examples/domestic-pottery-ding-m1-3-independent.svg](assets/examples/domestic-pottery-ding-m1-3-independent.svg) | 陶鼎 SVG 矢量主稿 |
+| [assets/examples/domestic-porcelain-bowl-m1-1-independent.svg](assets/examples/domestic-porcelain-bowl-m1-1-independent.svg) | 瓷碗 SVG 矢量主稿 |
 
 ## 典例：瓦当
 
 该案例把一张正面照片和文字尺寸转成以中心轴、同心结构、四分布局和云纹证据为核心的线图。案例中记录的尺寸包括：当径 16、当心径 6、边轮宽 0.9、边轮厚 1.9、当厚 1.5、纹/缝深 0.6 厘米；正式使用时仍应以原始测量记录复核。
 
-![瓦当考古绘图典例](assets/examples/wadang-8a1-archaeological-plate-v1.png)
+[查看/下载瓦当 SVG 矢量主稿](assets/examples/wadang-8a1-archaeological-plate-v1.svg)
+
+![瓦当考古绘图典例 PNG 预览](assets/examples/wadang-8a1-archaeological-plate-v1.png)
 
 ### 原器物图（用户提供）
 
@@ -88,9 +94,11 @@
 
 ![三星堆 K3QW：1 青铜大口尊原报告线图](assets/examples/domestic-bronze-k3qw1-published-line-drawing.png)
 
-### 本 skill 独立重绘
+### 本 skill 独立重绘（SVG 矢量主稿）
 
-![三星堆 K3QW：1 青铜大口尊独立重绘](assets/examples/domestic-bronze-k3qw1-independent.png)
+[查看/下载青铜大口尊 SVG 矢量主稿](assets/examples/domestic-bronze-k3qw1-independent.svg)
+
+![三星堆 K3QW：1 青铜大口尊独立重绘 PNG 预览](assets/examples/domestic-bronze-k3qw1-independent.png)
 
 ### 陶器｜小红门 M1：3 陶鼎
 
@@ -104,9 +112,11 @@
 
 ![小红门 M1：3 陶鼎原报告线图](assets/examples/domestic-pottery-ding-m1-3-published-line-drawing.png)
 
-### 本 skill 独立重绘
+### 本 skill 独立重绘（SVG 矢量主稿）
 
-![小红门 M1：3 陶鼎独立重绘](assets/examples/domestic-pottery-ding-m1-3-independent.png)
+[查看/下载陶鼎 SVG 矢量主稿](assets/examples/domestic-pottery-ding-m1-3-independent.svg)
+
+![小红门 M1：3 陶鼎独立重绘 PNG 预览](assets/examples/domestic-pottery-ding-m1-3-independent.png)
 
 ### 瓷器｜小红门 M1：1 瓷碗
 
@@ -120,9 +130,11 @@
 
 ![小红门 M1：1 瓷碗原报告线图](assets/examples/domestic-porcelain-bowl-m1-1-published-line-drawing.png)
 
-### 本 skill 独立重绘
+### 本 skill 独立重绘（SVG 矢量主稿）
 
-![小红门 M1：1 瓷碗独立重绘](assets/examples/domestic-porcelain-bowl-m1-1-independent.png)
+[查看/下载瓷碗 SVG 矢量主稿](assets/examples/domestic-porcelain-bowl-m1-1-independent.svg)
+
+![小红门 M1：1 瓷碗独立重绘 PNG 预览](assets/examples/domestic-porcelain-bowl-m1-1-independent.png)
 
 完整的逐例说明、出处和版权联系见 [国内器物案例展示与出处索引](references/domestic-case-gallery.md)。
 
@@ -151,7 +163,8 @@ $archaeological-artifact-drawing
 3. 锈蚀、包浆、反光、阴影和背景不画，但锈蚀下仍可辨认的纹饰必须画；
 4. 不可辨认处留空或断线，不得按常见器形或纹样捏造；
 5. 已给出尺寸的视图必须在图下标注对应比例尺；
-6. 交付前逐段对照原照片，并说明待复核区域。
+6. 最终同时输出 SVG 矢量主稿和 PNG 预览；SVG 只用路径/几何元素表达线图，不嵌入原始位图；
+7. 交付前逐段对照原照片，并说明待复核区域。
 ```
 
 ### 3. 标准处理顺序
@@ -161,6 +174,8 @@ $archaeological-artifact-drawing
 ### 4. 交付前检查
 
 检查视图是否对正、比例尺是否与尺寸一致、剖面线是否位于真实切面、锈蚀是否被误画、锈蚀下纹饰是否漏画、纹饰是否清晰精细且未被概括或臆补；最后把成品标为“照片证据转译稿”或“实测图”，不得混淆。
+
+最终交付必须同时提供真正的 SVG 矢量主稿和 PNG 预览。SVG 必须可解析、带 `viewBox`、含路径/几何元素且不含 `<image>` 或 `data:image`；先回渲染 SVG 检查，再交付。
 
 ## 来源与版权说明
 
@@ -176,7 +191,7 @@ $archaeological-artifact-drawing
 $archaeological-artifact-drawing
 ```
 
-本仓库仅在用户明确要求且保留出处的对照案例中纳入必要的原器物图和人工/原报告线图；其他用户上传的原始照片不包含。案例成品用于展示方法和复核思路，不能替代对原器物的现场测量与人工审图。
+本仓库仅在用户明确要求且保留出处的对照案例中纳入必要的原器物图和人工/原报告线图；其他用户上传的原始照片不包含。案例成品同时提供 SVG 矢量主稿和 PNG 预览，用于展示方法和复核思路，不能替代对原器物的现场测量与人工审图。
 
 ## 许可与边界
 
