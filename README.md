@@ -47,7 +47,8 @@
 | [references/traditional-line-drawing-learning-pack.md](references/traditional-line-drawing-learning-pack.md) | 陶器、石器、金属器、玉石、骨角牙、玻璃和有机物的线描方法 |
 | [references/domestic-case-lessons.md](references/domestic-case-lessons.md) | 国内器物绘图案例的归纳与审查要点 |
 | [references/web-comparison-lessons.md](references/web-comparison-lessons.md) | 对照公开案例后的查漏补缺记录 |
-| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 3 组国内独立重绘案例及逐例出处 |\n| [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
+| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 3 组国内独立重绘案例及逐例出处 |
+| [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
 | [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当规范化绘图成品示例 |
 
 ## 典例：瓦当
