@@ -50,7 +50,7 @@
 | [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
 | [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当规范化绘图成品示例 |
 
-## 典例：瓦当 8a1
+## 典例：瓦当
 
 该案例把一张正面照片和文字尺寸转成以中心轴、同心结构、四分布局和云纹证据为核心的线图。案例中记录的尺寸包括：当径 16、当心径 6、边轮宽 0.9、边轮厚 1.9、当厚 1.5、纹/缝深 0.6 厘米；正式使用时仍应以原始测量记录复核。
 
