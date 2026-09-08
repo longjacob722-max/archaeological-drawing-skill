@@ -57,6 +57,14 @@
 
 ![瓦当考古绘图典例](assets/examples/wadang-8a1-archaeological-plate-v1.png)
 
+### 原器物图（用户提供）
+
+![瓦当原器物照片（用户提供）](assets/examples/wadang-original-artifact-photo.jpg)
+
+### 人工手绘/尺寸参考图（用户提供）
+
+![瓦当带尺寸人工手绘图（用户提供）](assets/examples/wadang-user-hand-drawing-with-dimensions.png)
+
 这张成品图展示的重点不是“复刻照片质感”，而是：
 
 - 将圆形器物的轮廓、边轮、当心和分区关系说清楚
@@ -66,11 +74,21 @@
 
 ## 其他案例展示
 
-以下 3 例均为依据公开考古资料独立重绘的学习稿，覆盖青铜器、陶器和瓷器；仓库只展示重绘图，不上传配对所用的原始照片。
+以下 3 例均为依据公开考古资料独立重绘的学习稿，覆盖青铜器、陶器和瓷器。本节同时展示出处图版中的原器物图、人工/原报告线图和本 skill 独立重绘；瓦当另展示用户提供的原器物照片与带尺寸人工手绘图。仅纳入用户明确要求或有出处依据的必要对照素材，逐图性质、出处和版权联系见[国内器物案例展示与出处索引](references/domestic-case-gallery.md)。
 
 ### 青铜器｜三星堆 K3QW：1 青铜大口尊
 
 出处：[《四川文物》2024 年第 4 期〈考古中国〉](https://www.sckg.com/uploads/soft/20240924/2-240924145943M8.pdf)。重点展示半剖面、器座/附饰、纹饰分带，以及锈蚀和摄影支撑物的排除。
+
+### 原器物图（原报告图版裁图）
+
+![三星堆 K3QW：1 青铜大口尊原器物图](assets/examples/domestic-bronze-k3qw1-original-photo.png)
+
+### 人工手绘/原报告线图
+
+![三星堆 K3QW：1 青铜大口尊原报告线图](assets/examples/domestic-bronze-k3qw1-published-line-drawing.png)
+
+### 本 skill 独立重绘
 
 ![三星堆 K3QW：1 青铜大口尊独立重绘](assets/examples/domestic-bronze-k3qw1-independent.png)
 
@@ -78,11 +96,31 @@
 
 出处：[《北京市朝阳区小红门金代墓葬发掘简报》](https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/325981205/2026020515482856873.pdf)。重点展示三足器的器形、器壁、残损和半剖表达；土色、修补色块和摄影阴影不进入线图。
 
+### 原器物图（原报告图版裁图）
+
+![小红门 M1：3 陶鼎原器物图](assets/examples/domestic-pottery-ding-m1-3-original-photo.png)
+
+### 人工手绘/原报告线图
+
+![小红门 M1：3 陶鼎原报告线图](assets/examples/domestic-pottery-ding-m1-3-published-line-drawing.png)
+
+### 本 skill 独立重绘
+
 ![小红门 M1：3 陶鼎独立重绘](assets/examples/domestic-pottery-ding-m1-3-independent.png)
 
 ### 瓷器｜小红门 M1：1 瓷碗
 
 出处：[《北京市朝阳区小红门金代墓葬发掘简报》](https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/325981205/2026020515482856873.pdf)。重点展示平面/正视/半剖面的组合；青釉、流釉和光泽不转译为黑块或纹饰。
+
+### 原器物图（原报告图版裁图）
+
+![小红门 M1：1 瓷碗原器物图](assets/examples/domestic-porcelain-bowl-m1-1-original-photo.png)
+
+### 人工手绘/原报告线图
+
+![小红门 M1：1 瓷碗原报告线图](assets/examples/domestic-porcelain-bowl-m1-1-published-line-drawing.png)
+
+### 本 skill 独立重绘
 
 ![小红门 M1：1 瓷碗独立重绘](assets/examples/domestic-porcelain-bowl-m1-1-independent.png)
 
@@ -94,7 +132,7 @@
 
 - 上传同一器物的正面、侧面、背面或俯视照片，并说明每张照片的观察方向。
 - 提供可靠的实测尺寸、图注尺寸或清晰的比例尺；没有可靠尺寸时，只要求结构分析稿，不声称按比例。
-- 若参考公开报告或网络图版，同时提供出处链接；原始照片、正式图版和他人资料不要直接放入公开仓库。
+- 若参考公开报告或网络图版，同时提供出处链接；只有在用户明确要求或来源允许时才纳入必要的低分辨率对照图，并逐图标明来源性质与版权联系。
 
 ### 2. 在 Codex 中调用
 
@@ -126,7 +164,7 @@ $archaeological-artifact-drawing
 
 ## 来源与版权说明
 
-本仓库瓦当典例的照片及尺寸文字资料出处为：[微信公众平台文章（用户提供链接）](https://mp.weixin.qq.com/s/A89_89I7ZpqnMmI08Rsf6g)。当前环境无法独立读取该页面的标题、作者及发布时间，因此不擅自补写元数据；以上链接作为出处标识。
+本仓库瓦当典例的原器物照片和带尺寸人工手绘图由用户提供，出处线索为：[微信公众平台文章（用户提供链接）](https://mp.weixin.qq.com/s/A89_89I7ZpqnMmI08Rsf6g)。当前环境无法独立读取该页面的标题、作者及发布时间，因此不擅自补写元数据；以上链接作为出处标识。
 
 相关案例仅用于考古绘图方法学习、技术验证和 skill 案例展示，不代表原文或原权利人授权。本仓库不主张原始照片、文章文字、器物资料及相关图像的著作权、署名权或其他权利。若您认为相关内容涉及侵权、署名不完整、链接失效或不宜公开，请联系开发者/仓库维护者，可通过本仓库提交 Issue；我们将及时核查，并按要求补充署名、修改或删除相关内容。
 
@@ -138,7 +176,7 @@ $archaeological-artifact-drawing
 $archaeological-artifact-drawing
 ```
 
-本仓库不包含用户上传的原始照片；案例成品用于展示方法和复核思路，不能替代对原器物的现场测量与人工审图。
+本仓库仅在用户明确要求且保留出处的对照案例中纳入必要的原器物图和人工/原报告线图；其他用户上传的原始照片不包含。案例成品用于展示方法和复核思路，不能替代对原器物的现场测量与人工审图。
 
 ## 许可与边界
 
