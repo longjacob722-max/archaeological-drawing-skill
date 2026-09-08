@@ -47,7 +47,7 @@
 | [references/traditional-line-drawing-learning-pack.md](references/traditional-line-drawing-learning-pack.md) | 陶器、石器、金属器、玉石、骨角牙、玻璃和有机物的线描方法 |
 | [references/domestic-case-lessons.md](references/domestic-case-lessons.md) | 国内器物绘图案例的归纳与审查要点 |
 | [references/web-comparison-lessons.md](references/web-comparison-lessons.md) | 对照公开案例后的查漏补缺记录 |
-| [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
+| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 3 组国内独立重绘案例及逐例出处 |\n| [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
 | [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当规范化绘图成品示例 |
 
 ## 典例：瓦当
@@ -62,6 +62,66 @@
 - 用统一的线条层级提取可确认的云纹与中心网格纹
 - 不绘制锈蚀色斑、反光和拍摄背景
 - 对低清或残损处保持证据边界，不用程式化纹样替代照片信息
+
+## 其他案例展示
+
+以下 3 例均为依据公开考古资料独立重绘的学习稿，覆盖青铜器、陶器和瓷器；仓库只展示重绘图，不上传配对所用的原始照片。
+
+### 青铜器｜三星堆 K3QW：1 青铜大口尊
+
+出处：[《四川文物》2024 年第 4 期〈考古中国〉](https://www.sckg.com/uploads/soft/20240924/2-240924145943M8.pdf)。重点展示半剖面、器座/附饰、纹饰分带，以及锈蚀和摄影支撑物的排除。
+
+![三星堆 K3QW：1 青铜大口尊独立重绘](assets/examples/domestic-bronze-k3qw1-independent.png)
+
+### 陶器｜小红门 M1：3 陶鼎
+
+出处：[《北京市朝阳区小红门金代墓葬发掘简报》](https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/325981205/2026020515482856873.pdf)。重点展示三足器的器形、器壁、残损和半剖表达；土色、修补色块和摄影阴影不进入线图。
+
+![小红门 M1：3 陶鼎独立重绘](assets/examples/domestic-pottery-ding-m1-3-independent.png)
+
+### 瓷器｜小红门 M1：1 瓷碗
+
+出处：[《北京市朝阳区小红门金代墓葬发掘简报》](https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/325981205/2026020515482856873.pdf)。重点展示平面/正视/半剖面的组合；青釉、流釉和光泽不转译为黑块或纹饰。
+
+![小红门 M1：1 瓷碗独立重绘](assets/examples/domestic-porcelain-bowl-m1-1-independent.png)
+
+完整的逐例说明、出处和版权联系见 [国内器物案例展示与出处索引](references/domestic-case-gallery.md)。
+
+## 使用教程
+
+### 1. 准备输入
+
+- 上传同一器物的正面、侧面、背面或俯视照片，并说明每张照片的观察方向。
+- 提供可靠的实测尺寸、图注尺寸或清晰的比例尺；没有可靠尺寸时，只要求结构分析稿，不声称按比例。
+- 若参考公开报告或网络图版，同时提供出处链接；原始照片、正式图版和他人资料不要直接放入公开仓库。
+
+### 2. 在 Codex 中调用
+
+安装本目录到 `$CODEX_HOME/skills/archaeological-artifact-drawing`，然后调用：
+
+```text
+$archaeological-artifact-drawing
+```
+
+可直接使用的请求模板：
+
+```text
+请按考古绘图skill处理这组照片：
+1. 先列出照片—视图—尺寸的证据账本；
+2. 先画正投影外轮廓、结构和器壁，再画可辨认纹饰；
+3. 锈蚀、包浆、反光、阴影和背景不画，但锈蚀下仍可辨认的纹饰必须画；
+4. 不可辨认处留空或断线，不得按常见器形或纹样捏造；
+5. 已给出尺寸的视图必须在图下标注对应比例尺；
+6. 交付前逐段对照原照片，并说明待复核区域。
+```
+
+### 3. 标准处理顺序
+
+`证据账本 → 视图与基准 → 外轮廓/器壁 → 结构线 → 纹饰分区与单元 → 残损与不确定性 → 尺寸标注与比例尺 → 打印尺寸 QA`
+
+### 4. 交付前检查
+
+检查视图是否对正、比例尺是否与尺寸一致、剖面线是否位于真实切面、锈蚀是否被误画、锈蚀下纹饰是否漏画、纹饰是否清晰精细且未被概括或臆补；最后把成品标为“照片证据转译稿”或“实测图”，不得混淆。
 
 ## 来源与版权说明
 
