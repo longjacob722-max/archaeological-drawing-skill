@@ -1,7 +1,7 @@
 interface:
   display_name: "考古绘图skill"
   short_description: "按考古实测与正投影规范分析、绘制和审查规范化器物线图"
-  default_prompt: "Use $archaeological-artifact-drawing to analyze or create a规范化考古器物线图。"
+  default_prompt: "Use $archaeological-artifact-drawing to analyze, review, or create a规范化考古器物线图；先核对证据、材质、形态、视图与尺寸，再输出符合 WW/T 0035—2012 的清晰线图和真正 SVG 矢量主稿。"
 
 policy:
   allow_implicit_invocation: true

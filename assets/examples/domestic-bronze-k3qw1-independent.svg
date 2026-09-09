@@ -1095,4 +1095,9 @@
 <path d="M0 0 C0.66 0.66 1.32 1.32 2 2 C1.01 2.33 0.02 2.66 -1 3 C-0.67 2.01 -0.34 1.02 0 0 Z " fill="#FFFFFF" transform="translate(788,633)"/>
 <path d="M0 0 C0.66 0 1.32 0 2 0 C1.67 0.99 1.34 1.98 1 3 C0.34 2.34 -0.32 1.68 -1 1 C-0.67 0.67 -0.34 0.34 0 0 Z " fill="#FFFFFF" transform="translate(319,465)"/>
 <path d="M0 0 C0.66 0.66 1.32 1.32 2 2 C1.01 2 0.02 2 -1 2 C-0.67 1.34 -0.34 0.68 0 0 Z " fill="#FFFFFF" transform="translate(788,1038)"/>
+<!-- Editable metadata labels; this file remains a structural analysis / to-be-measured validation稿. -->
+<g id="editable-labels" fill="#111111" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <text x="584" y="28" text-anchor="middle" font-size="20">青铜大口尊 K3QW:1｜结构分析稿·待实测</text>
+  <text x="584" y="1328" text-anchor="middle" font-size="16">《四川文物》2024年第4期图六｜学习/技术验证稿</text>
+</g>
 </svg>

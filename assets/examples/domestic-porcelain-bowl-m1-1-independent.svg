@@ -147,4 +147,15 @@
 <path d="M0 0 C4.875 1.75 4.875 1.75 6 4 C4.35 3.67 2.7 3.34 1 3 C0.67 2.01 0.34 1.02 0 0 Z " fill="#000000" transform="translate(895,66)"/>
 <path d="M0 0 C0.66 0.33 1.32 0.66 2 1 C0.35 2.65 -1.3 4.3 -3 6 C-1.125 1.125 -1.125 1.125 0 0 Z " fill="#000000" transform="translate(858,403)"/>
 <path d="M0 0 C0.99 0.33 1.98 0.66 3 1 C2.175 1.495 2.175 1.495 -2 4 C-2 3.01 -2 2.02 -2 1 C-1.34 0.67 -0.68 0.34 0 0 Z " fill="#000000" transform="translate(712,236)"/>
+<!-- Editable metadata labels and a dimension-backed 0–5 cm reference bar. -->
+<g id="editable-labels" fill="#111111" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+  <text x="32" y="995" font-size="16">瓷碗 M1:1｜口径 13 cm｜底径 5 cm｜通高 4.1 cm</text>
+  <text x="1120" y="978" font-size="13">比例尺（按口径 13 cm 校准）</text>
+  <line x1="1120" y1="990" x2="1406" y2="990" stroke="#111111" stroke-width="2"/>
+  <line x1="1120" y1="984" x2="1120" y2="996" stroke="#111111" stroke-width="2"/>
+  <line x1="1406" y1="984" x2="1406" y2="996" stroke="#111111" stroke-width="2"/>
+  <text x="1120" y="1016" font-size="14">0</text>
+  <text x="1406" y="1016" text-anchor="end" font-size="14">5 cm</text>
+  <text x="768" y="1018" text-anchor="middle" font-size="14">《北京市朝阳区小红门金代墓葬发掘简报》图三｜照片证据转译稿·待实测复核</text>
+</g>
 </svg>

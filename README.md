@@ -47,8 +47,12 @@
 | [references/traditional-line-drawing-learning-pack.md](references/traditional-line-drawing-learning-pack.md) | 陶器、石器、金属器、玉石、骨角牙、玻璃和有机物的线描方法 |
 | [references/domestic-case-lessons.md](references/domestic-case-lessons.md) | 国内器物绘图案例的归纳与审查要点 |
 | [references/web-comparison-lessons.md](references/web-comparison-lessons.md) | 对照公开案例后的查漏补缺记录 |
-| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 4 个国内器物案例及逐例出处 |
+| [references/domestic-case-gallery.md](references/domestic-case-gallery.md) | 3 个国内正式资料独立验证案例＋1 个用户资料瓦当典例，并含补库学习资料 |
 | [references/wadang-case-8a1.md](references/wadang-case-8a1.md) | 瓦当典例：纹饰、尺寸和成品复核 |
+| [references/legal-note.md](references/legal-note.md) | 国内公开素材的署名、版权与纠错处理 |
+| [references/optimization-package-audit.md](references/optimization-package-audit.md) | 优化包逐项审计与错配排除记录 |
+| [templates/evidence-ledger.md](templates/evidence-ledger.md) | 证据账本模板：照片、尺寸、纹饰和不确定性 |
+| [scripts/validate_svg.sh](scripts/validate_svg.sh) | SVG 矢量交付结构校验脚本 |
 | [assets/examples/wadang-8a1-archaeological-plate-v1.svg](assets/examples/wadang-8a1-archaeological-plate-v1.svg) | 瓦当 SVG 矢量主稿 |
 | [assets/examples/wadang-8a1-archaeological-plate-v1.png](assets/examples/wadang-8a1-archaeological-plate-v1.png) | 瓦当 PNG 预览 |
 | [assets/examples/domestic-bronze-k3qw1-independent.svg](assets/examples/domestic-bronze-k3qw1-independent.svg) | 青铜大口尊 SVG 矢量主稿 |
@@ -147,6 +151,17 @@
 
 完整的逐例说明、出处和版权联系见 [国内器物案例展示与出处索引](references/domestic-case-gallery.md)。
 
+## 补库学习资料（不冒充独立重绘）
+
+压缩包审计后，只保留能回到国内正式报告或政府页面核验的素材。它们用于补充材质、器形、人物、建筑陶和石器分支；没有可靠的照片—官方线图配对，就不写成独立重绘案例。
+
+- [渡头古城图一五：陶器、青瓷器线图](assets/examples/domestic-dutou-fig15-pottery-porcelain-line-drawing.jpg)、[图一六：瓦当原器物照片](assets/examples/domestic-dutou-fig16-wadang-original-photo.jpg)、[图一七：瓦当、陶球拓片及线图](assets/examples/domestic-dutou-fig17-wadang-rubbing-and-line-drawing.jpg)：来源为[湖南省文化和旅游厅页面](https://whhlyt.hunan.gov.cn/whhlyt/news/gzdt/201812/t20181214_5372142.html)。
+- [小红门 M1：4 陶炉官方图三整版](assets/examples/domestic-pottery-lu-m1-4-published-fig3.png)：来源为[《北京市朝阳区小红门金代墓葬发掘简报》](https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/325981205/2026020515482856873.pdf)，仅作三足器结构学习。
+- [三星堆 K3QW：26 图一〇官方人像线图版](assets/examples/domestic-bronze-k3qw26-fig10-official-plate.png)：来源为[《四川文物》2024 年第 4 期](https://www.sckg.com/uploads/soft/20240924/2-240924145943M8.pdf)，仅作人物头身、衣饰、持物和共同基准学习。
+- [双河一号图五工具线图](assets/examples/domestic-stone-shuanghe-fig5-tools.png)：来源为[《人类学学报》2016 年第 35 卷第 3 期](https://ivpp.cas.cn/cbw/rlxxb/xbwzmj/201604/P020160921381585065485.pdf)，仅作打制石器台面、负疤和刃缘学习。
+
+铜镜 M27：1、青花碗 M34：3 的压缩包裁图经核对存在明显角色错配，双河所谓“图四”实际为图三；这些文件不进入案例库。详细审计见[优化包素材审计记录](references/optimization-package-audit.md)。
+
 ## 使用教程
 
 ### 1. 准备输入
@@ -178,7 +193,15 @@ $archaeological-artifact-drawing
 
 ### 3. 标准处理顺序
 
-`证据账本 → 视图与基准 → 外轮廓/器壁 → 结构线 → 纹饰分区与单元 → 残损与不确定性 → 尺寸标注与比例尺 → 打印尺寸 QA`
+`证据账本 → 材质/器形分流 → 视图与基准 → 外轮廓/器壁 → 结构线 → 纹饰分区与单元 → 残损与不确定性 → 尺寸标注与比例尺 → SVG/PNG 回渲染 → 打印尺寸 QA`
+
+证据账本可直接套用 [`templates/evidence-ledger.md`](templates/evidence-ledger.md)。SVG 交付前可运行：
+
+```sh
+sh scripts/validate_svg.sh assets/examples/*.svg
+```
+
+校验器会检查数值 `viewBox`、几何元素、可编辑文字标签、同名 PNG 配对，以及禁止 `<image>` 和 `data:image` 嵌入；它不能替代 XML 回渲染和逐段人工对照。
 
 ### 4. 交付前检查
 
@@ -188,9 +211,7 @@ $archaeological-artifact-drawing
 
 ## 来源与版权说明
 
-本仓库瓦当典例的原器物照片和带尺寸人工手绘图由用户提供，出处线索为：[微信公众平台文章（用户提供链接）](https://mp.weixin.qq.com/s/A89_89I7ZpqnMmI08Rsf6g)。当前环境无法独立读取该页面的标题、作者及发布时间，因此不擅自补写元数据；以上链接作为出处标识。
-
-相关案例仅用于考古绘图方法学习、技术验证和 skill 案例展示，不代表原文或原权利人授权。本仓库不主张原始照片、文章文字、器物资料及相关图像的著作权、署名权或其他权利。若您认为相关内容涉及侵权、署名不完整、链接失效或不宜公开，请联系开发者/仓库维护者，可通过本仓库提交 Issue；我们将及时核查，并按要求补充署名、修改或删除相关内容。
+本仓库瓦当典例的原器物照片和带尺寸人工手绘图由用户提供，出处线索为：[微信公众平台文章（用户提供链接）](https://mp.weixin.qq.com/s/A89_89I7ZpqnMmI08Rsf6g)。当前环境无法独立读取该页面的标题、作者及发布时间，因此不擅自补写元数据；以上链接作为出处标识。统一的来源、署名、侵权联系、错配纠正和删除流程见[公开素材署名与权利处理](references/legal-note.md)。
 
 ## 使用提示
 
